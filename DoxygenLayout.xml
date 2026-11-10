@@ -42,10 +42,10 @@
     </tab>
     <tab type="examples" visible="no" title="" intro=""/>
     <!-- Inject your custom links -->
-    <tab type="user" url="/about" title="ABOUT"/>
-    <tab type="user" url="/wiki" title="WIKI"/>
+    <tab type="user" url="/about" title="ABOUT" class="custom-top-link" />
+    <tab type="user" url="/wiki" title="WIKI" class="custom-top-link" />
     <tab type="user" url="/docs" title="DOCS"/>
-    <tab type="user" url="/license" title="LICENSE"/>
+    <tab type="user" url="/license" title="LICENSE" class="custom-top-link" />
   </navindex>
 
   <!-- Layout definition for a class page -->
