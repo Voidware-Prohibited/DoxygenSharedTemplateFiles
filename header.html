@@ -61,7 +61,17 @@ $extrastylesheet
   <!--BEGIN DISABLE_INDEX-->
    <!--BEGIN SEARCHENGINE-->
      <!--BEGIN !FULL_SIDEBAR-->
-    <td>$searchbox</td>
+    <div id="top-nav">
+        <td>
+            <ul>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/wiki">WIKI</a></li>
+                <li><a href="/docs">DOCS</a></li>
+                <li><a href="/license">LICENSE</a></li>
+            </ul>
+        </td>
+        <td>$searchbox</td>
+    </div>
      <!--END !FULL_SIDEBAR-->
    <!--END SEARCHENGINE-->
   <!--END DISABLE_INDEX-->
@@ -78,3 +88,8 @@ $extrastylesheet
 </div>
 <!--END TITLEAREA-->
 <!-- end header part -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul style="border-top: 0!important;">
+            $navpath
+        </ul>
+    </div>
