@@ -199,6 +199,24 @@ ul.top-nav-list {
     margin-bottom: 12px;
 }
 
+#nav-path ul li:before, .navpath ul li:after {
+    background-image: none !important;
+    padding-right: 0 !important;
+    opacity: 0;
+}
+
+#nav-path li.navelem:has(.el)::after {
+    content: '/';
+}
+
+#nav-path ul li:not(:last-child)::after {
+    content: "/";
+    margin-left: 10px;
+    color: var(--page-foreground-color, #888);
+    opacity: 0.6;
+}
+
 li.navelem:first-child {
     margin-left: 0!important;
 }
+
