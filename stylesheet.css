@@ -1,7 +1,9 @@
 /* Style and alignment for your custom navigation links */
 :root {
     --theme-color: "snowwhite";
+    --theme-color-dark-mode: "snowwhite";
     --brand-color: "#903fff";
+    --brand-color-dark-mode: "#903fff";
 }
 
 /* Dark Light Them Toggle */
