@@ -174,14 +174,18 @@
     margin-bottom: 31px;*/
 }
 
-/* Content Area Left and Right Margin */
-#nav-tree-contents {
-    margin-left: 60px;
-}
 
-#doc-content {
-    /*height: auto!important;*/
-    margin-right: 60px;
+
+@media (width >= 992px) {
+    /* Content Area Left and Right Margin */
+    #nav-tree-contents {
+        margin-left: 60px;
+    }
+
+    #doc-content {
+        /*height: auto!important;*/
+        margin-right: 60px;
+    }
 }
 
 #doc-content div.contents {
