@@ -225,7 +225,14 @@ li.navelem:first-child {
 
 @media screen and (max-width: 992px) {
     #titlearea {
-        margin: 0!important;
+        margin: 0;
+    }
+
+    #nav-tree-contents{
+        margin-left: 0!important;
+    }
+    #doc-content {
+        margin-right: 0!important;
     }
 }
 
